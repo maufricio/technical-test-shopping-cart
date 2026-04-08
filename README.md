@@ -1,5 +1,4 @@
-# 🧩 Microservices System - Order Management
-
+# 🧩 Microservices System - Shopping Cart
 This project is a microservices-based system built with **Spring Boot**, designed to simulate an order management workflow including products, orders, and payments.
 
 ---
