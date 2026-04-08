@@ -1,9 +1,9 @@
-# 🧩 Microservices System - Shopping Cart
+# Microservices System - Shopping Cart
 This project is a microservices-based system built with **Spring Boot**, designed to simulate an order management workflow including products, orders, and payments.
 
 ---
 
-## 🚀 Architecture Overview
+## Architecture Overview
 
 The system is composed of three independent microservices:
 
@@ -15,7 +15,7 @@ The system is composed of three independent microservices:
 
 ---
 
-## 🔄 Flow
+## Flow
 
 1. Client sends a request to **order-service**
 2. order-service:
@@ -28,7 +28,7 @@ The system is composed of three independent microservices:
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - Java 17+
 - Spring Boot
@@ -41,7 +41,7 @@ The system is composed of three independent microservices:
 
 ---
 
-## 📦 Project Structure
+## Project Structure
 
 Each microservice follows a clean architecture:
 
@@ -55,7 +55,7 @@ Each microservice follows a clean architecture:
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 Run each microservice independently:
 
