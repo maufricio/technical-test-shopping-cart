@@ -27,14 +27,14 @@ public class ProductController {
         List<ProductResponse> prods = this.productService.getAllProducts();
         return ResponseEntity
                 .status(HttpStatus.OK)
-                .body(new ApiResponse(HttpStatus.OK, "Data retrieved", prods));
+                .body(prods); // returns the list of products
     }
 
     @GetMapping("/{id}")
     public ResponseEntity<?> getProductById(@PathVariable Long id) {
         ProductResponse product = productService.getProductById(id);
-        return ResponseEntity.ok(
-                new ApiResponse(HttpStatus.OK, "Product retrieved", product)
-        );
+        return ResponseEntity
+                .status(HttpStatus.OK)
+                .body(product);
     }
 }
